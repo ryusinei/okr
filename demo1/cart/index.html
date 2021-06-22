@@ -1,0 +1,178 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>demo1</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <h1>EC</h1>
+    <div class="cart">
+      <div class="cartCount hidden"><span id="js_cart_cnt"></span></div>
+      <a href=""><img src="../img/ico_cart.svg"  class="cartIcon" alt="カートアイコン"></a>
+    </div>
+  </header>
+  <div class="clearBtnArea">
+    <button id="js_cart_clear" class="cartBtn-clear">
+      カートをクリア
+    </button>
+  </div>
+  <div id="wrapper">
+    <div class="itemWrapper"></div>
+    <ul class="itemList">
+      <li class="item">
+        <div class="item__top">
+          <img src="../img/pic_water.png" alt="">
+        </div>
+        <div class="item__bottom">
+          <h2 class="item__bottom-title">水 2L</h2>
+          <div class="item__bottom-price">¥<span class="js_get_price">1000</span></div>
+          <div class="item__bottom-btnArea">
+            <button class="cartBtn js_cart_btn" data-name="アイテム1" data-price="1000">
+              カートに入れる
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__top">
+          <img src="../img/pic_water.png" alt="">
+        </div>
+        <div class="item__bottom">
+          <h2 class="item__bottom-title">水 2L</h2>
+          <div class="item__bottom-price">¥<span class="js_get_price">1000</span></div>
+          <div class="item__bottom-btnArea">
+            <button class="cartBtn js_cart_btn" data-name="アイテム2" data-price="2000">
+              カートに入れる
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__top">
+          <img src="../img/pic_water.png" alt="">
+        </div>
+        <div class="item__bottom">
+          <h2 class="item__bottom-title">水 2L</h2>
+          <div class="item__bottom-price">¥<span class="js_get_price">1000</span></div>
+          <div class="item__bottom-btnArea">
+            <button class="cartBtn js_cart_btn" data-name="アイテム3" data-price="1000">
+              カートに入れる
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__top">
+          <img src="../img/pic_water.png" alt="">
+        </div>
+        <div class="item__bottom">
+          <h2 class="item__bottom-title">水 2L</h2>
+          <div class="item__bottom-price">¥<span class="js_get_price">1000</span></div>
+          <div class="item__bottom-btnArea">
+            <button class="cartBtn js_cart_btn" data-name="アイテム4" data-price="1000">
+              カートに入れる
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__top">
+          <img src="../img/pic_water.png" alt="">
+        </div>
+        <div class="item__bottom">
+          <h2 class="item__bottom-title">水 2L</h2>
+          <div class="item__bottom-price">¥<span class="js_get_price">1000</span></div>
+          <div class="item__bottom-btnArea">
+            <button class="cartBtn js_cart_btn" data-name="アイテム5" data-price="1000">
+              カートに入れる
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__top">
+          <img src="../img/pic_bread.png" alt="">
+        </div>
+        <div class="item__bottom">
+          <h2 class="item__bottom-title">食パン</h2>
+          <div class="item__bottom-price">¥<span class="js_get_price">1000</span></div>
+          <div class="item__bottom-btnArea">
+            <button class="cartBtn js_cart_btn" data-name="アイテム6" data-price="1000">
+              カートに入れる
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__top">
+          <img src="../img/pic_bread.png" alt="">
+        </div>
+        <div class="item__bottom">
+          <h2 class="item__bottom-title">食パン</h2>
+          <div class="item__bottom-price">¥<span class="js_get_price">1000</span></div>
+          <div class="item__bottom-btnArea">
+            <button class="cartBtn js_cart_btn" data-name="アイテム7" data-price="1000">
+              カートに入れる
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__top">
+          <img src="../img/pic_bread.png" alt="">
+        </div>
+        <div class="item__bottom">
+          <h2 class="item__bottom-title">食パン</h2>
+          <div class="item__bottom-price">¥<span class="js_get_price">1000</span></div>
+          <div class="item__bottom-btnArea">
+            <button class="cartBtn js_cart_btn" data-name="アイテム8" data-price="1000">
+              カートに入れる
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__top">
+          <img src="../img/pic_bread.png" alt="">
+        </div>
+        <div class="item__bottom">
+          <h2 class="item__bottom-title">食パン</h2>
+          <div class="item__bottom-price">¥<span class="js_get_price">1000</span></div>
+          <div class="item__bottom-btnArea">
+            <button class="cartBtn js_cart_btn" data-name="アイテム9" data-price="1000">
+              カートに入れる
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="item__top">
+          <img src="../img/pic_bread.png" alt="">
+        </div>
+        <div class="item__bottom">
+          <h2 class="item__bottom-title">食パン</h2>
+          <div class="item__bottom-price">¥<span class="js_get_price">1000</span></div>
+          <div class="item__bottom-btnArea">
+            <button class="cartBtn js_cart_btn" data-name="アイテム10" data-price="1000">
+              カートに入れる
+            </button>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+
+  </div>
+
+
+
+    
+  <footer>
+
+  </footer>
+  <script type="text/javascript" src="../js/common.js"></script>
+</body>
+</html>
